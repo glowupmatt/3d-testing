@@ -37,8 +37,8 @@ export default function App() {
         <PresentationControls
           global
           rotation={[0, 0.3, 0]}
-          // polar={[-Math.PI / 2, Math.PI / 2]}
-          azimuth={[-Math.PI / 0.5, Math.PI / 2]}
+          polar={[-Math.PI / -20, Math.PI / 10]}
+          azimuth={[-Math.PI / -4, Math.PI / 1.8]}
         >
           <Model position={[0, -1.4, 0]} scale={1} />
         </PresentationControls>
